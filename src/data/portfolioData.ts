@@ -101,56 +101,61 @@ export const experiences: Experience[] = [
   }
 ];
 
-export const certifications: Certification[] = [
+export const certifications = [
   {
     id: 1,
-    title: "Foundations of Cybersecurity",
-    issuer: "Coursera",
-    certificateUrl: "https://drive.google.com/file/d/1wAzg28lTQdGn90rsvBYpyTDNTJmcHQvY/view"
+    title: "GenAI Powered Data Analytics",
+    issuer: "Certificate of Completion",
+    certificateUrl:
+      "file:///C:/Devraj.M/Certificates/GenAI%20Powered%20Data%20Analytics%20Job%20Simulation.pdf",
   },
   {
     id: 2,
-    title: "Full Stack Web Development",
-    issuer: "DevMind's",
-    certificateUrl: "https://drive.google.com/file/d/1ycn_Uc9rcGbGz8_9aO2dBykvvHwDpybC/view"
+    title: "Data Science",
+    issuer: "Certificate for Completion",
+    certificateUrl:
+      "https://udemy-certificate.s3.amazonaws.com/pdf/UC-0847e4f7-4bf9-4fb8-9cda-af6f90a3fd02.pdf",
   },
   {
     id: 3,
-    title: "IT-ITeS Sector Skill Council",
-    issuer: "Certificate for Skill Competency",
-    certificateUrl: "#"
+    title: "Foundations of Cybersecurity",
+    issuer: "Coursera",
+    certificateUrl:
+      "https://drive.google.com/file/d/1wAzg28lTQdGn90rsvBYpyTDNTJmcHQvY/view",
   },
   {
     id: 4,
-    title: "Completion of C Training",
-    issuer: "Programming Fundamentals",
-    certificateUrl: "#"
+    title: "Full Stack Web Development",
+    issuer: "DevMind's",
+    certificateUrl:
+      "https://drive.google.com/file/d/1ycn_Uc9rcGbGz8_9aO2dBykvvHwDpybC/view",
   },
   {
     id: 5,
-    title: "Wadhwani Foundation",
-    issuer: "Certificate of Completion",
-    certificateUrl: "#"
+    title: "IT-ITeS Sector Skill Council",
+    issuer: "Certificate for Skill Competency",
+    certificateUrl:
+      "file:///C:/Devraj.M/Certificates/CAN_33386281-yrgds3k7xubb9xjn.pdf",
   },
   {
     id: 6,
-    title: "Machine Learning Foundation",
-    issuer: "ML Fundamentals",
-    certificateUrl: "#"
-  }
-];
-
-export const skills: Skill[] = [
-  {
-    category: "Programming",
-    skills: ["Python", "SQL", "JavaScript", "React.js"]
+    title: "Completion of C Training",
+    issuer: "Programming Fundamentals",
+    certificateUrl:
+      "file:///C:/Devraj.M/Certificates/DEVRAJ.M-M-Participant-Certificate.pdf",
   },
   {
-    category: "Data Analysis",
-    skills: ["Pandas, NumPy", "Power BI, Excel", "Statistical Analysis", "Machine Learning"]
+    id: 7,
+    title: "Wadhwani Foundation",
+    issuer: "Certificate of Completion",
+    certificateUrl:
+      "file:///C:/Devraj.M/Certificates/Wadhwani%20Foundation%20Certificate%20-%206745d65d8a37a95d1cb7b34f.pdf",
   },
   {
-    category: "Tools & Technologies",
-    skills: ["Git, GitHub", "AWS Cloud", "Flask, Streamlit", "Selenium"]
-  }
+    id: 8,
+    title: "AWS Cloud Essentials",
+    issuer: "AWS Fundamentals",
+    certificateUrl:
+      "file:///C:/Devraj.M/Certificates/482_3_4387582_1723114462_AWS%20Course%20Completion%20Certificate.pdf",
+  },
 ];
